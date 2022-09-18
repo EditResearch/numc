@@ -1,0 +1,4 @@
+numc.o: src/numc.c src/include/numc.h src/include/tensor.h
+tensor.o: src/tensor.c src/include/tensor.h
+test.o: test/test.c test/../src/include/numc.h \
+ test/../src/include/tensor.h

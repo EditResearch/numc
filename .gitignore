@@ -1,3 +1,7 @@
+*.swp
+release
+*.bak
+
 # Prerequisites
 *.d
 
