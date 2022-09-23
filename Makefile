@@ -10,13 +10,12 @@ TARGET=libnumc.a
 OUTPUT=release
 
 
+MODULES += nd_array.o
 MODULES += numc.o
-MODULES += tensor.o
 
-
-TEST += main.o
+TEST += test.o
 TEST += numc.o
-TEST += tensor.o
+TEST += nd_array.o
 
 
 all: env $(MODULES)

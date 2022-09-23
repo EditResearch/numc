@@ -1,4 +1,4 @@
-numc.o: src/numc.c src/include/numc.h src/include/tensor.h
-tensor.o: src/tensor.c src/include/tensor.h
+nd_array.o: src/nd_array.c src/include/nd_array.h
+numc.o: src/numc.c src/include/numc.h src/include/nd_array.h
 test.o: test/test.c test/../src/include/numc.h \
- test/../src/include/tensor.h
+ test/../src/include/nd_array.h
